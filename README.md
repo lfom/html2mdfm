@@ -6,7 +6,7 @@ Some features:
 - Attachments are copied and should be imported into Joplin properly
 - A list of links are added to the end of the note (workaround for Web/Bookmark notes, can be disabled)
 - Properly convert ToDo lists (note with checkbox list)
-- Properly import reminders (the code tries to import the times converting it the Zulu timezone, but please check them in Joplin after importing)
+- Properly import reminders (the code tries to import the times converting them to Zulu timezone, but please check them in Joplin after importing since, for me at least, the expored HTML used a timezone that has nothing to do with my settings in Notebook)
 - A line break is added between `</div><div>` found in the original HTML to better display lists, etc (can be disabled)
 - Illegal characters from notebook and note titles are replaced by a space (or removed from the title) to avoid errors when importing into Joplin
 
