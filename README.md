@@ -26,8 +26,7 @@ It is recommended that you use a virtual environment to install dependecies with
 1. Clone the repo or download the zipped code and extract its contents
 2. Go to the directory with the cloned/unzipped files, i.e. `cd html2mdfm`
 3. Make sure the file is executable: `chmod u+x ./html2mdfm.py`
-
-Create the virtual environemnt and install dependencies (optional)
+4. Create the virtual environemnt and install dependencies (optional)
 ```
 virtualenv -p python3 .
 source ./bin/activate
