@@ -37,7 +37,7 @@ PS: when you finish using the utiliy, either use `deactivate` to exit the virtua
 
 
 ## How to use
-If you haven't exported the notebooks from Zoho yet, then follow [these instructions](https://help.zoho.com/portal/en/kb/notebook/import-and-export/articles/export-all-your-notecards-from-notebook).
+If you haven't exported your Notebook data from Zoho yet, then follow [these instructions](https://help.zoho.com/portal/en/kb/notebook/import-and-export/articles/export-all-your-notecards-from-notebook). Remember to export it to HTML, and then uncompress the ZIP file they provide, all files should be inside only one folder.
 
 ```
 usage: html2mdfm.py [-h] [--nolinebreaks] infolder [outfolder]
