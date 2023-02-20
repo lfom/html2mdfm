@@ -28,11 +28,12 @@ It is recommended that you use a virtual environment to install dependecies with
 3. Make sure the file is executable: `chmod u+x ./html2mdfm.py`
 
 Create the virtual environemnt and install dependencies (optional)
-    1. `virtualenv -p python3 .`
-    2. `source ./bin/activate`
-    3. `pip install --upgrade pip setuptools`
-    4. `pip install --upgrade bs4 markdownify rich`
-
+```
+virtualenv -p python3 .
+source ./bin/activate
+pip install --upgrade pip setuptools
+pip install --upgrade bs4 markdownify rich
+```
 PS: when you finish using the utiliy, either use `deactivate` to exit the virtual environment or close/exit the terminal.
 
 
